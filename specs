@@ -1,0 +1,43 @@
+number of guests? numberOfGuests (used to calculate prices of other items)
+what food is being served? (speghetti -- chicken something -- steak)
+beverages? water/soda/coffee -- beer/wine -- open bar
+music? dj -- live music
+entertainment? clowns/face painting -- comedy performance
+giveaways
+
+to create simplicity I have added option numbers instead of asking the user to type out whole strings of words that would have to match up exactly
+
+
+other options:
+
+
+// @Test
+// public void runEventPlanning_initialTesting_ArrayList() {
+//   EventPlanning testEventPlanning = new EventPlanning();
+//   List<Object> expectedOutput = new ArrayList<Object>();
+//   expectedOutput.add(1);
+//   assertEquals(expectedOutput, testEventPlanning.runEventPlanning(1));
+// }
+//
+// @Test
+// public void runEventPlanning_addingNumbersTo_ArrayList() {
+//   EventPlanning testEventPlanning = new EventPlanning();
+//   List<Object> expectedOutput = new ArrayList<Object>();
+//   expectedOutput.add(1);
+//   expectedOutput.add(2);
+//   assertEquals(expectedOutput, testEventPlanning.runEventPlanning(2));
+// }
+
+// import java.util.ArrayList;
+// import java.util.List;
+//
+// public class EventPlanning {
+//
+//   public List<Object> runEventPlanning(int initialTesting) {
+//     List<Object> result = new ArrayList<Object>();
+//     for (int i = 1; i <= initialTesting; i++) {
+//       result.add(i);
+//     }
+//     return result;
+//   }
+// }
