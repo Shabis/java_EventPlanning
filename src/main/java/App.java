@@ -53,7 +53,7 @@ public class App {
 
       String mainMenu = myConsole.readLine();
 
-      if (running.equalsIgnoreCase("yes")) {
+      if (mainMenu.equalsIgnoreCase("Yes")) {
 
         //USER QUESTIONS
         String userEventName = myConsole.readLine("What is the name of your event? \n");
@@ -75,7 +75,7 @@ public class App {
         System.out.println( userParty.mEntertainment );
         System.out.println( userParty.mGiveaway );
 
-      } else if (mainMenu.equals("Exit")) {
+      } else if (mainMenu.equalsIgnoreCase("No")) {
           System.exit(0);
       } else {
           System.out.println("I'm sorry, we don't recognize your input");
