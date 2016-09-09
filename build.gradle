@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = ""
+archivesBaseName = "EventPlanning"
 version = '1.0'
 mainClassName = "App"
 
@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-testCom
+testCompile group: 'junit', name: 'junit' version: '4.+'
 }
